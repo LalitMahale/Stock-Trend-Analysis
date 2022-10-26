@@ -10,12 +10,12 @@ st.title("Stock Trend Prediction")
 
 
 
-stock_name = st.text_input("Enter Stock Title","ZEEL")
+stock_name = st.text_input("Enter Stock Title","SBIN")
 
 start = st.date_input("Start Date")#"2010-01-01"
 end = st.date_input("End Date")# "2022-10-25"
 st.subheader("Data From {} - {}".format(start,end))
-df = data.DataReader(stock_name+".NS","yahoo",start,end)
+df = data.DataReader((stock_name+".NS"),"yahoo",start,end)
 
 
 # # Describe data
