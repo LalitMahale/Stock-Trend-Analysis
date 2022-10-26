@@ -19,7 +19,7 @@ df = data.DataReader((stock_name+".NS"),"yahoo",start,end)
 
 
 # # Describe data
-st.write(df.describe())
+#st.write(df.describe())
 
 # Visualizations
 st.subheader("closing Price vs Time Chart")
