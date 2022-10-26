@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import requests
 import pandas_datareader as data
-from keras.models import load_mload_model
+#from keras.models import load_model
 
 st.title("Stock Trend Prediction")
 
